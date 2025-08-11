@@ -1,0 +1,15 @@
+import pickle
+
+model_path = '/Users/sakethtalamarla/Downloads/realestate-ai-mvp/outputs/valuation_model.pkl'
+
+with open(model_path, 'rb') as f:
+    loaded = pickle.load(f)
+
+print(f"Loaded object type: {type(loaded)}")
+print(f"Loaded object content: {loaded}")
+
+if isinstance(loaded, tuple):
+    model = loaded[0]
+    print(f"Unpacked model type: {type(model)}")
+else:
+    model = loaded

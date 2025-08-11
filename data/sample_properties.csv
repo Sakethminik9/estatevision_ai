@@ -1,0 +1,6 @@
+property_id,address,city,state,zip,lat,lon,property_type,lot_size_sqft,living_area_sqft,year_built,bedrooms,bathrooms,current_listing_price,last_sale_price,last_sale_date,assessed_value,tax_delinquent,code_violations_count,owner_name,est_mortgage_balance
+P001,123 Main St,Springfield,IL,62701,39.7817,-89.6501,SingleFamily,6000,1800,1985,3,2,500000,450000,2019-06-01,350000,0,0,Alice Smith,200000
+P002,45 Oak Ave,Springfield,IL,62701,39.7825,-89.6489,SingleFamily,4500,1400,1975,3,1.5,320000,300000,2018-02-15,240000,1,2,Bob Jones,150000
+P003,88 Elm St,Springfield,IL,62701,39.7832,-89.6499,MultiFamily,7000,2600,1950,6,4,850000,900000,2021-10-10,700000,0,1,Carol Lee,400000
+P004,9 Pine Rd,Springfield,IL,62701,39.7799,-89.6512,SingleFamily,5000,1600,1995,3,2,420000,410000,2020-07-07,310000,0,0,David Kim,180000
+P005,101 River Dr,Springfield,IL,62701,39.7805,-89.6470,VacantLand,12000,0,0,0,0,150000,100000,2010-04-01,120000,0,0,Emily Clark,0
